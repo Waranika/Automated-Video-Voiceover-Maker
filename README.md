@@ -25,19 +25,19 @@ ffmpeg (for audio and video encoding, required by moviepy)
 ## Installation
 Clone this repository:
 
-'''
+```
 git clone https://github.com/your-username/automated-video-voiceover.git
-'''
+```
 Navigate to the project directory:
 
-'''
+```
 cd automated-video-voiceover
-'''
+```
 Install the required Python packages:
 
-'''
+```
 pip install -r requirements.txt
-'''
+```
 Install ffmpeg if you haven't already (required by moviepy):
 
 
@@ -47,9 +47,9 @@ Download the ffmpeg executable from https://www.ffmpeg.org/download.html and add
 
 Run the script:
 
-'''
+```
 python make_voiceover.py
-'''
+```
 The script will download the YouTube video, combine it with other video clips, and create the final voiceover video.
 
 
